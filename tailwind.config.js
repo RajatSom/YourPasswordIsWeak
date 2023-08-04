@@ -5,7 +5,11 @@ module.exports = {
     minHeight: {
       '2rem': '2rem'
     },
-    extend: {},
+    extend: {
+      transitionDuration: {
+        '800': '800ms',
+      }
+    },
   },
   plugins: [],
 }

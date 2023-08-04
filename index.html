@@ -9,6 +9,7 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="shortcut icon" href="#">
     <title>Password.iS.Weak</title>
 </head>
 
@@ -21,8 +22,8 @@
                 class="resize-vertical border-white rounded-md overflow-hidden outline-none w-full h-7 font-mono text-2xl"></textarea>
         </div>
     </div>
-    <div id="rules-wrapper">
-        <div class="my-5 mx-10 flex flex-col border-2 border-red-600 rounded-md text-md">
+    <div id="rules-wrapper" class="transition ease-in duration-700">
+        <!-- <div id="div_1" class="my-5 mx-10 flex flex-col border-2 border-red-600 rounded-md text-md">
             <div class="bg-red-300 p-2 flex align-middle rounded-t-md">
                 <span class="material-symbols-outlined pr-1 text-red-600">close</span>
                 <span>Rule </span>
@@ -31,8 +32,8 @@
             <div class="bg-red-100 p-2 pl-3 rounded-b-md">
                 <span>Your password must have an uppercase letter.</span>
             </div>
-        </div>
-        <div class="my-5 mx-10 flex flex-col border-2 border-green-600 rounded-md text-md">
+        </div> -->
+        <!-- <div id="div_2" class="my-5 mx-10 flex flex-col border-2 border-green-600 rounded-md text-md">
             <div class="bg-green-300 p-2 flex align-middle rounded-t-md">
                 <span class="material-symbols-outlined pr-1 text-green-600">done </span>
                 <span>Rule </span>
@@ -41,14 +42,17 @@
             <div class="bg-green-100 p-2 pl-3 rounded-b-md">
                 <span>Your password must have more than 5 letters.</span>
             </div>
-        </div>
-        <div class="my-5 mx-10 flex flex-col border-2 border-green-600 rounded-md text-md">
-            <div class="bg-green-300 p-2 flex align-middle rounded-t-md">
-                <span class="material-symbols-outlined pr-1 text-green-600">done </span>
+        </div> -->
+        <div id="div_1"
+            class="my-5 mx-10 flex flex-col border-2 border-red-600 rounded-md text-md transition ease-in-out duration-700">
+            <div id="div1_child"
+                class="bg-red-300 p-2 flex align-middle rounded-t-md transition ease-in-out duration-700">
+                <span id="icon1" class="material-symbols-outlined pr-1 text-red-600">close
+                </span>
                 <span>Rule </span>
                 <span> 1</span>
             </div>
-            <div class="bg-green-100 p-2 pl-3 rounded-b-md">
+            <div id="div1_grandChild" class="bg-red-100 p-2 pl-3 rounded-b-md transition ease-in-out duration-700">
                 <span>Your password must have a number.</span>
             </div>
         </div>

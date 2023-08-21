@@ -3,16 +3,22 @@ module.exports = {
   content: ["*"],
   theme: {
     minHeight: {
-      '2rem': '2rem'
+      'h': '60px'
     },
+    // fontSize: {
+    //   '3.5xl': '2rem',
+    //   // 'xl': '1.25rem'
+    // },
     height: {
-      '7.5': '1.9rem',
+      'h1': '44px',
     },
     extend: {
       transitionDuration: {
         '800': '800ms',
-      }
-
+      },
+      fontFamily: {
+        'cool_font': ['"Dosis"', 'cursive'],
+      },
     },
   },
   plugins: [],
